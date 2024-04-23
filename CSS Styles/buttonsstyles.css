@@ -1,0 +1,103 @@
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-info {
+    flex: 1;
+}
+
+.project-button {
+    flex-shrink: 0;
+    margin-left: 20px;
+}
+
+.view-project-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #EF476F;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.view-project-btn:hover {
+    background-color: #f86f8f;
+}
+
+.containerbutton {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+    margin-right: auto; 
+}
+
+img.logo {
+    max-width: 400px;
+    height: auto;
+    margin-right: 1000px;
+}
+
+.listref {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #FF4A89;
+    border-radius: 35px;
+    transition: background-color 0.3s ease;
+}
+
+.listref:not(:last-child) {
+    margin-right: 10px;
+}
+
+.listref:hover {
+    background-color: #FFBE5C;
+}
+
+.listref a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.listref a:hover {
+    color: inherit;
+}
+
+@media (max-width: 768px) {
+    .containerbutton {
+        justify-content: center; /* Center items on smaller screens */
+    }
+}
+
+.about-me-text {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-right: 490px;
+    font-family: "mae-variable", sans-serif;
+    font-variation-settings: 'wght' 700;
+}
+
+.cta-button {
+    display: block;
+    padding: 10px 20px;
+    background-color: #FFBE5C;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 35px;
+    width: 140px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-variation-settings: "slnt" 0;
+    font-size: 16px; 
+    margin: 0; 
+    text-align: center;
+}
+
+.cta-button:hover {
+    background-color: #f7b758;
+}

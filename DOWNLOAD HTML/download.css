@@ -1,0 +1,68 @@
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    font-size: 16px; /* Adjust font size as needed */
+    margin: 0; /* Remove default margin */
+    background: #d4e5f8;
+    overflow-x: hidden;
+}
+
+h1, h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.app-links {
+    display: flex;
+    justify-content: center;
+}
+
+.app-link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.app-link.ios {
+    background-color: #000;
+}
+
+.app-link.android {
+    background-color: #3ddc84;
+}
+
+.cta-btn {
+    display: block;
+    padding: 10px 20px;
+    background-color: #FFBE5C;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 35px;
+    width: 140px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-variation-settings: "slnt" 0;
+    font-size: 16px; /* Adjust font size as needed */
+    margin: 0; /* Remove default margin */
+    margin-top: 10px;
+    text-align: center;
+}
+
+.cta-btn:hover {
+    background-color: #f7b758;
+}
+
+footer {
+    background: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 60px 0; /* Adjust padding for better spacing */
+}
